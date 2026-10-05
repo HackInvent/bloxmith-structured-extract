@@ -1,0 +1,18 @@
+{
+  "block.structured_extract.advanced": "Advanced settings",
+  "block.structured_extract.apply_hint": "Changes remain local until Apply. Restart a loaded Run to use new settings.",
+  "block.structured_extract.last_state": "Last result",
+  "block.structured_extract.invalid_json": "Enter valid JSON before applying.",
+  "block.structured_extract.invalid_number": "Check the numeric value and its limits.",
+  "block.structured_extract.saved": "Settings applied.",
+  "block.structured_extract.model.title": "Structured Extract",
+  "block.structured_extract.model.description": "Extract explicitly located fields from text or JSON, retaining evidence and validating the resulting schema.",
+  "block.structured_extract.role": "Fields with source evidence",
+  "block.structured_extract.error": "Extraction failed: {detail}",
+  "block.structured_extract.help_input_format": "text: one string; sections: array of referenced text sections; json: JSON Pointer extraction.",
+  "block.structured_extract.help_fields": "Output fields and exact selectors: line_prefix, between or pointer. Ambiguous matches are never chosen silently.",
+  "block.structured_extract.help_schema": "Supported JSON Schema subset. data is emitted only when the extracted object conforms; evidence/issues remain available.",
+  "block.structured_extract.help_max_bytes": "Maximum input bytes. No file loading, network access or model calls.",
+  "block.structured_extract.help_max_field_characters": "Maximum exact source span retained per field.",
+  "block.structured_extract.help_max_issues": "Maximum published diagnostics; truncation is explicitly reported."
+}

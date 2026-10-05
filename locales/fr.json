@@ -1,0 +1,18 @@
+{
+  "block.structured_extract.advanced": "Réglages avancés",
+  "block.structured_extract.apply_hint": "Modifications locales jusqu’à Appliquer. Redémarrez un Run chargé pour utiliser les nouveaux réglages.",
+  "block.structured_extract.last_state": "Dernier résultat",
+  "block.structured_extract.invalid_json": "Saisissez un JSON valide avant d’appliquer.",
+  "block.structured_extract.invalid_number": "Vérifiez la valeur numérique et ses limites.",
+  "block.structured_extract.saved": "Paramètres appliqués.",
+  "block.structured_extract.model.title": "Extraction structurée",
+  "block.structured_extract.model.description": "Extraire des champs explicitement localisés dans du texte ou JSON, conserver les preuves et vérifier le schéma.",
+  "block.structured_extract.role": "Champs avec preuves sources",
+  "block.structured_extract.error": "Échec d’extraction : {detail}",
+  "block.structured_extract.help_input_format": "text : une chaîne ; sections : tableau de sections référencées ; json : extraction par JSON Pointer.",
+  "block.structured_extract.help_fields": "Champs de sortie et sélecteurs exacts : line_prefix, between ou pointer. Aucun choix silencieux en cas d’ambiguïté.",
+  "block.structured_extract.help_schema": "Sous-ensemble JSON Schema pris en charge. data est émis seulement si l’objet est conforme ; preuves et diagnostics restent disponibles.",
+  "block.structured_extract.help_max_bytes": "Taille maximale des entrées en octets. Ni lecture de fichiers, ni accès réseau, ni appel de modèle.",
+  "block.structured_extract.help_max_field_characters": "Longueur maximale de l’extrait source exact conservé par champ.",
+  "block.structured_extract.help_max_issues": "Nombre maximal de diagnostics publiés ; la troncature est explicitement signalée."
+}

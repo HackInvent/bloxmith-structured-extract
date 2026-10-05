@@ -1,0 +1,48 @@
+[
+  {
+    "key": "input_format",
+    "type": "select",
+    "options": [
+      "text",
+      "sections",
+      "json"
+    ],
+    "help": "text: one string; sections: array of referenced text sections; json: JSON Pointer extraction."
+  },
+  {
+    "key": "fields",
+    "type": "json",
+    "rows": 8,
+    "help": "Output fields and exact selectors: line_prefix, between or pointer. Ambiguous matches are never chosen silently."
+  },
+  {
+    "key": "schema",
+    "type": "json",
+    "rows": 8,
+    "help": "Supported JSON Schema subset. data is emitted only when the extracted object conforms; evidence/issues remain available."
+  },
+  {
+    "key": "max_bytes",
+    "type": "integer",
+    "min": 1024,
+    "max": 4194304,
+    "advanced": true,
+    "help": "Maximum input bytes. No file loading, network access or model calls."
+  },
+  {
+    "key": "max_field_characters",
+    "type": "integer",
+    "min": 1,
+    "max": 100000,
+    "advanced": true,
+    "help": "Maximum exact source span retained per field."
+  },
+  {
+    "key": "max_issues",
+    "type": "integer",
+    "min": 1,
+    "max": 1000,
+    "advanced": true,
+    "help": "Maximum published diagnostics; truncation is explicitly reported."
+  }
+]
